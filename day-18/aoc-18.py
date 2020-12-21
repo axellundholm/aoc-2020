@@ -83,20 +83,3 @@ if __name__ == "__main__":
 	ltest = [cleanup(x.strip().replace(" ", ""))[0] for x in ltest]
 	
 	print ltest[0]
-	# print ltest[1]
-	# print ltest[2]
-	# print ltest[3]
-	#print(calc(ltest[3]))
-	
-	# ans = [calc(x) for x in ltest]
-	# print(ans)	
-
-	
-	# ltest = ["1 + 2 + 3 * 4 + (5 * 5)\n", "5 + 7\n"]
-	# print(ltest)
-	# ltest = [cleanup(x.strip().replace(" ", ""))[0] for x in ltest]
-	# print(ltest)
-
-	
-	# ans = sum([calc(x) for x in l])
-	# print("Ans = ", ans)
